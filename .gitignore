@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints (large files)
+*.pkl
+*.joblib
+*.onnx
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Large intermediate outputs
+*_pairs.csv
+checkpoints*/
+
+# Dataset files (download from competition portal)
+student_resource/dataset/
